@@ -1,4 +1,3 @@
-
 class SparkIO:
 
     def __init__(self, spark):
