@@ -1,4 +1,5 @@
 from pyspark.sql import SparkSession
+from delta.tables import *
 
 # read from local system
 spark = SparkSession.builder.appName('abc').getOrCreate()

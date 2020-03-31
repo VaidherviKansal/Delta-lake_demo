@@ -1,5 +1,4 @@
 import datetime
-
 from pyspark.sql import SparkSession
 
 # read from local system
